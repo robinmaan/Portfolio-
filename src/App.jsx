@@ -4,7 +4,7 @@ import {Home,Projects,Contact,About} from "./pages/index.js"
 
 function App() {
   return (
-   <main>
+   <main className="bg-slate-300/20 h-[100vh]">
     <Router className="bg-slate-300/20">
       <Navbar className="z-10000"/>
       <Routes>
